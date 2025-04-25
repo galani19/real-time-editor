@@ -225,8 +225,8 @@ importers:
         specifier: ^8.8.1
         version: 8.8.1
       openapi-backend:
-        specifier: ^5.11.1
-        version: 5.11.1
+        specifier: ^5.12.0
+        version: 5.12.0
       proxy-addr:
         specifier: ^2.0.7
         version: 2.0.7
@@ -3009,6 +3009,7 @@ packages:
 
   formidable@2.1.2:
     resolution: {integrity: sha512-CM3GuJ57US06mlpQ47YcunuUZ9jpm8Vx+P2CGt2j7HpgkKZO/DJYQ0Bobim8G6PFQmK5lOqOOdUXboU+h73A4g==}
+    deprecated: 'ACTION REQUIRED: SWITCH TO v3 - v1 and v2 are VULNERABLE! v1 is DEPRECATED FOR OVER 2 YEARS! Use formidable@latest or try formidable-mini for fresh projects'
 
   formidable@3.5.2:
     resolution: {integrity: sha512-Jqc1btCy3QzRbJaICGwKcBfGWuLADRerLzDqi2NwSt/UkXLsHJw2TVResiaoBufHVHy9aSgClOHCeJsSsFLTbg==}
@@ -3811,6 +3812,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch-commonjs@3.3.2:
     resolution: {integrity: sha512-VBlAiynj3VMLrotgwOS3OyECFxas5y7ltLcK4t41lMUZeaK15Ym4QRkqN0EQKAFL42q9i21EPKjzLUPfltR72A==}
@@ -3889,8 +3891,8 @@ packages:
   only@0.0.2:
     resolution: {integrity: sha512-Fvw+Jemq5fjjyWz6CpKx6w9s7xxqo3+JCyM0WXWeCSOboZ8ABkyvP8ID4CZuChA/wxSx+XSJmdOm8rGVyJ1hdQ==}
 
-  openapi-backend@5.11.1:
-    resolution: {integrity: sha512-TsIbku0692sU1X5Ewhzj49ivd8EIT0GDtwbB7XvT234lY3+oJfTe3cUWaBzeKGeX+a1mjcluuJ4V+wTancRbdA==}
+  openapi-backend@5.12.0:
+    resolution: {integrity: sha512-tD4Ak8w5XBlGVi4gso/QNbxcfrj3j6ypuKg9bx7l6hQaeMVxEdf5Ro8M/SVoNg7L8VptzIkwE8Lp3H+Ba88hWA==}
     engines: {node: '>=12.0.0'}
 
   openapi-schema-validation@0.4.2:
@@ -8857,7 +8859,7 @@ snapshots:
 
   only@0.0.2: {}
 
-  openapi-backend@5.11.1:
+  openapi-backend@5.12.0:
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.9.3
       ajv: 8.17.1
