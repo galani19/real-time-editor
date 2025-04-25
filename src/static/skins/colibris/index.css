@@ -5,7 +5,6 @@ form {
 }
 
 body {
-  background: url(images/fond.jpg) center center no-repeat fixed #fff;
   font-family: Quicksand, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
@@ -39,7 +38,7 @@ input {
 
 #label {
   text-shadow: none;
-  color: #FFF;
+  color: #050101;
   font-weight: normal;
   text-align: center;
 }
